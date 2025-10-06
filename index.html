@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Snake - Juego</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="panel">
+<div>
+    <canvas id="game"></canvas>
+    <div class="meta">Usá las flechas o W A S D. En móvil: desliza para mover.</div>
+</div>
+<div class="sidebar">
+    <h1>Snake — Juego Replica</h1>
+    <div>Puntaje: <span id="score" class="score">0</span></div>
+    <div class="row">
+    <button id="startBtn" class="btn-primary">Iniciar</button>
+    <button id="pauseBtn" class="btn-ghost">Pausa</button>
+    <button id="resetBtn" class="btn-ghost">Reiniciar</button>
+</div>
+<div class="legend">
+    <div>Velocidad: <span id="speedVal">8</span> fps</div>
+    <input id="speed" type="range" min="4" max="16" value="8">
+    <div>Alto: <span id="gridSizeVal">20</span> celdas</div>
+    <input id="gridSize" type="range" min="12" max="30" value="20">
+</div>
+    <div class="meta">Mejor puntaje: <strong id="best">0</strong></div>
+    <div style="margin-top:10px" class="meta">Controles: <span class="kbd">Arriba</span> <span class="kbd">Abajo</span> <span class="kbd">Izq</span> <span class="kbd">Der</span></div>
+</div>
+<div class="footer">
+    <div>Luciano Montes De Oca</div>
+    <div class="meta">Presiona R para reiniciar</div>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
