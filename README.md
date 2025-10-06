@@ -36,7 +36,7 @@ Fully responsive, smooth, and works on both desktop and mobile devices.
 
 ## 🚀 Try it Live
 You can play it directly on GitHub Pages:  
-👉 [https://yourusername.github.io/snake-game/](https://yourusername.github.io/snake-game/)
+👉 (https://lucianomontesdeoca9-droid.github.io/Snake-Game/)
 
 ---
 
